@@ -1,4 +1,4 @@
-function takeANumber (d,name) {
+function takeANumber () {
   d.push(name)
   if (d.length > 0) {
     var i = d.slice(-1)[0]
