@@ -1,5 +1,5 @@
 function takeANumber () {
-  d.push(name)
+  var counter = 1
   if (d.length > 0) {
     var i = d.slice(-1)[0]
     var x = d.indexOf(i)
