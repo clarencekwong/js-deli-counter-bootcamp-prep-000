@@ -1,10 +1,7 @@
 function takeANumber () {
   var counter = 1
-  if (d.length > 0) {
-    var i = d.slice(-1)[0]
-    var x = d.indexOf(i)
-    return "Welcome, " + `${i}` + '. You are number ' + `${x+1}` + ' in line.'
-  }
+  counter += 1
+  return counter
 }
 
 function nowServing(d) {
